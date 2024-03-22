@@ -184,7 +184,7 @@ nav li .link {
 	padding: 0 15px;
 }
 
-.benefits-item {
+.benefits-list:first-child {
 	width: calc((100% - 72px) / 4);
 }
 
@@ -208,9 +208,12 @@ nav li .link {
 	text-align: center;
 }
 
+.team-listlist:first-child {
+	width: calc((100% - 48px) / 3);
+}
+
 .team-card {
 	background-color: #ffffff;
-	width: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
 }
 
@@ -240,7 +243,7 @@ nav li .link {
 	row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-list:first-child {
 	width: calc((100% - 48px) / 3);
 }
 
@@ -265,7 +268,7 @@ nav li .link {
 	padding: 0 15px;
 }
 
-.footer .logo .link {
+.footer .logo {
 	display: inline-block;
 	margin-bottom: 16px;
 }
